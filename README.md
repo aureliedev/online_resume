@@ -7,3 +7,4 @@ Utilisation de HTML/CSS/JS de base
 Bibliothèque : Scroll Reveal, Mixitup Filter, Swiper JS, Boxicons.
 
 Le design provient d'un des templates de bedimcode.# online_resume# online_resume
+# online_resume
