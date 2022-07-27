@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="CV en ligne et portfolio de Aurélie Menin en tant que développeuse web.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <!--=============== CSS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>CV Aurelie Menin</title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">AURÉLIE M.</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="home nav__item nav__link">
+                        <a href="#home">
+                            <i class='bx bx-home-alt'></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class='bx bx-user' ></i>
+                            </a>
+                        </li>
+                        <!-- <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-book' ></i>
+                            </a>
+                        </li> -->
+                    <li class="work nav__item nav__link">
+                        <a href="#work">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+                    <li class="contact nav__item nav__link">
+                        <a href="#contact">
+                            <i class='bx bx-message-square-dots'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Theme change button -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <div class="wrapper">
+                        <h1 class="static-txt">Bienvenue, je suis</h1>
+                        <ul class="dynamic-txts">
+                            <li><span>Aurélie Menin</span></li>
+                            <li><span>Prête à travailler!</span></li>
+                            <li><span>Motivée!</span></li>
+                        </ul>
+                        <h2 class="mobile-txt">Aurélie</h2>
+                    </div>
+                    <!-- <span class="home__greeting">Hello, I'm</span>
+                        <h1 class="home__name">Aurélie Menin</h1>
+                    <h2 class="home__education">Junior Web Developer</h2> -->
+
+                    <div class="home__buttons">
+                        <a download="" href="assets/pdf/CV_2022.pdf" class="button button--ghost">
+                            Télécharger le CV
+                        </a>
+                        <a href="#about" class="button">A propos de moi</a>
+                    </div>
+                    <h2 class="home__description-title">
+                        Développeuse Web
+                    </h2>
+                    <p class="home__description-subtitle">Je crée des sites web responsive et offre la meilleure
+                        expérience utilisateur possible, <br>
+                        je suis très <strong>motivée</strong> et <strong>passionnée</strong> par le développement web.
+                    </p>
+                </div>
+
+                <div class="home__handle">
+                    <img src="./assets/img/photo_pro.png" alt="photo pro"
+                        class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="https://bit.ly/3mNjlFm" target="_blank" rel="noopener" class="home__social-link">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="https://bit.ly/3mL4Qlv" target="_blank" rel="noopener" class="home__social-link">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div>
+
+                <div class="mouse__scroll-container">
+                    <span class="mouse__scroll-name">Scroll Down</span>
+                    <span class="mouse">
+                        <span class="mouse-wheel"></span>
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+                <span class="section__subtitle">A propos de moi</span>
+                <h2 class="section__title">SOFT SKILLS</h2>
+
+                <div class="about__container container grid">
+                    <img src="./assets/img/photo_pro.png" alt="deuxieme photo pro" class="about__img">
+
+                    <div class="about__data">
+                        <div class="about__info">
+                            <div class="about__box">
+                                <i class='bx bx-search-alt about__icon'></i>
+                                <h3 class="about__title">Curiosité</h3>
+                                <!-- <span class="about__subtitle">5 + Projects</span> -->
+                            </div>
+                            <div class="about__box">
+                                <i class='bx bx-laptop about__icon'></i>
+                                <h3 class="about__title">Autonomie</h3>
+                                <!-- <span class="about__subtitle">5 + Projects</span> -->
+                            </div>
+                            <div class="about__box">
+                                <i class='bx bx-list-check about__icon'></i>
+                                <h3 class="about__title">Organisation</h3>
+                                <!-- <span class="about__subtitle">5 + Projects</span> -->
+                            </div>
+                            <div class="about__box">
+                                <i class='bx bx-analyse about__icon'></i>
+                                <h3 class="about__title">Adaptation</h3>
+                                <!-- <span class="about__subtitle">6 years of self-learning</span> -->
+                            </div>
+                            
+                            <div class="about__box">
+                                <i class='bx bx-briefcase-alt about__icon' ></i>
+                                <h3 class="about__title">Communication</h3>
+                                <!-- <span class="about__subtitle">5 + Projects</span> -->
+                            </div>
+
+                            <div class="about__box">
+                                <i class='bx bx-support about__icon' ></i>
+                                <h3 class="about__title">Sens de l'écoute
+                                </h3>
+                                <!-- <span class="about__subtitle">Online 7/7</span> -->
+                            </div>
+                        </div>
+
+                        <p class="about__description">
+                            Passionnée d’informatique et de nouvelles technologies depuis toujours, le monde du web est mon domaine de prédilection. Autodidacte, curieuse et rigoureuse, je m’adapte en toute circonstance. Je recherche aujourd’hui une entreprise dans le développement web.
+                        </p>
+
+                        <a href="#contact" class="button">Me Contacter</a>
+                    </div>
+                </div>
+            </section>
+
+        <!--=============== SKILLS ===============-->
+        <section class="skills section">
+            <span class="section__subtitle">Mes compétences</span>
+            <h2 class="section__title">HARD SKILLS</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxs-file-html'></i>
+                                <h3 class="skills__name">HTML/CSS</h3>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxl-sass'></i>
+                                <h3 class="skills__name">SASS</h3>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxl-javascript'></i>
+                                <h3 class="skills__name">Javascript</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxl-react'></i>
+                                <h3 class="skills__name">React</h3>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bx-search-alt-2'></i>
+                                <h3 class="skills__name">SEO | Wordpress</h3>
+                            </div>
+                            <div class="skills__data">
+                                <i class='bx bxl-git'></i>
+                                <h3 class="skills__name">Git | Github</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxl-nodejs'></i>
+                                <h3 class="skills__name">NodeJS</h3>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bx-server'></i>
+                                <h3 class="skills__name">Express</h3>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-server'></i>
+                                <h3 class="skills__name">API REST</h3>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class='bx bxl-firebase'></i>
+                                <h3 class="skills__name">PHPmyAdmin</h3>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bx-data'></i>
+                                <h3 class="skills__name">MySQL</h3>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class='bx bxs-data'></i>
+                                <h3 class="skills__name">Mongoose</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <!-- <span class="section__subtitle">Mon Portfolio</span> -->
+            <h2 class="section__title">Mon Portfolio</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>Tous</span>
+                <span class="work__item" data-filter='.personal'>Perso</span>
+                <span class="work__item" data-filter='.courses'>Formation</span>
+                <!-- <span class="work__item" data-filter='.design'>Mission</span> -->
+            </div>
+
+            <div class="work__container container grid">
+
+                <div class="work__card mix personal">
+                    <video class="work__img" autoplay muted>
+                        <source src="./assets/video/argonautes.mov">
+                    </video>
+
+                    <h3 class="work__title"><a target="_blank" rel="noopener"
+                            href="https://github.com/aureliedev/argonautes">Argonautes | React, MongoDB > MERN</a></h3>
+
+                    <span class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </span>
+
+                    <div class="work__modal swiper">
+                        <i class='bx bx-x work__modal-close'></i>
+                        <div class="work__modal-content swiper-wrapper">
+                            <video class="swiper-slide" autoplay muted>
+                                <source src="./assets/video/argonautes.mov">
+                            </video>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="work__card mix courses">
+                    <img src="./assets/img/booki.gif" alt="" class="work__img">
+
+                    <h3 class="work__title"><a target="_blank" rel="noopener"
+                            href="https://aureliedev.github.io/OC_P2/">Site Web de réservation "BOOKI"</a></h3>
+
+                    <span class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </span>
+
+                    <div class="work__modal swiper">
+                        <i class='bx bx-x work__modal-close'></i>
+                        <div class="work__modal-content swiper-wrapper">
+                            <video class="swiper-slide" autoplay muted>
+                                <source src="./assets/video/booki.mov">
+                            </video>                           
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="work__card mix courses">
+                    <img src="./assets/img/omf.gif" alt="" class="work__img">
+
+                    <h3 class="work__title"><a target="_blank" rel="noopener"
+                            href="https://aureliedev.github.io/AurelieMenin_3_20122021/">HTML / Animation CSS / Sass</a>
+                    </h3>
+
+                    <span class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </span>
+
+                    <div class="work__modal swiper">
+                        <i class='bx bx-x work__modal-close'></i>
+                        <div class="work__modal-content swiper-wrapper">
+                            <video class="swiper-slide" autoplay muted>
+                                <source src="./assets/video/OMF.mov">
+                            </video>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="work__card mix courses">
+                    <video class="work__img" autoplay muted>
+                        <source src="./assets/video/lachouetteagence_after.mov">
+                    </video>
+
+                    <h3 class="work__title"><a target="_blank" rel="noopener"
+                            href="https://github.com/aureliedev/P4_lachouetteagence">Optimisation SEO</a>
+                    </h3>
+
+                    <span class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </span>
+
+                    <div class="work__modal swiper">
+                        <i class='bx bx-x work__modal-close'></i>
+                        <div class="work__modal-content swiper-wrapper">
+                            <video class="swiper-slide" autoplay muted>
+                                <source src="./assets/video/lachouetteagence_befor.mov">
+                                <source src="./assets/video/lachouetteagence_after.mov">
+                            </video>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="work__card mix courses">
+                    <img src="./assets/img/kanap.gif" alt="" class="work__img">
+
+                    <h3 class="work__title"><a target="_blank" rel="noopener"
+                            href="https://github.com/aureliedev/OC_P5">Site Ecommerce | API & JS</a>
+                    </h3>
+
+                    <span class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </span>
+
+                    <div class="work__modal swiper">
+                        <i class='bx bx-x work__modal-close'></i>
+                        <div class="work__modal-content swiper-wrapper">
+                            <video class="swiper-slide" autoplay muted>
+                                <source src="./assets/video/kanap.mov">
+                            </video>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="work__card mix courses">
+                    <img src="./assets/img/piquante.gif" alt="" class="work__img">
+
+                    <h3 class="work__title"><a target="_blank" rel="noopener"
+                            href="https://github.com/aureliedev/MeninAurelie_6_032022">API REST & MongoDB</a>
+                    </h3>
+
+                    <span class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </span>
+
+                    <div class="work__modal swiper">
+                        <i class='bx bx-x work__modal-close'></i>
+                        <div class="work__modal-content swiper-wrapper">
+                            <video class="swiper-slide" autoplay muted>
+                                <source src="./assets/video/piquante.mp4">
+                            </video>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="work__card mix courses">
+                    <img src="./assets/img/groupomania.gif" alt="" class="work__img">
+
+                    <h3 class="work__title"><a target="_blank" rel="noopener"
+                            href="https://github.com/aureliedev/OC_P7">React / MongoDB / Sass</a>
+                    </h3>
+
+                    <span class="work__button">
+                        Demo <i class='bx bx-right-arrow-alt work__icon'></i>
+                    </span>
+
+                    <div class="work__modal swiper">
+                        <i class='bx bx-x work__modal-close'></i>
+                        <div class="work__modal-content swiper-wrapper">
+                            <video class="swiper-slide" autoplay muted>
+                                <source src="./assets/video/groupomania.mov">
+                            </video>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--=============== SERVICES ===============-->
+        <!-- <section class="services section">
+                <span class="section__subtitle">My Services</span>
+                <h2 class="section__title">What I Offer</h2>
+
+                <div class="services__container container grid">
+                    <div class="services__card">
+                        <h3 class="services__title">Product <br>Designer</h3>
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close'></i>
+
+                                <h3 class="services__modal-title">Product Designer</h3>
+                                <p class="services__modal-description">
+                                    I make your website according to the design you want.
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            I develop the user interface.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Web page development.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            I create UX element interactions.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            I can work from template design.
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">Animation <br>Interaction</h3>
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close'></i>
+
+                                <h3 class="services__modal-title">Animation Interaction</h3>
+                                <p class="services__modal-description">
+                                    I build websites with smooth animations.<br/>
+                                    Interactive contents working with API and Database.
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Smooth animation effects.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Interactive content.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            I work with API and persistent data.
+                                        </p>
+                                    </li>
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            I provide the algorithms you need.
+                                        </p>
+                                    </li>
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            I manage your website security with OWASP.
+                                        </p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__card">
+                        <h3 class="services__title">SEO <br>Performance</h3>
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close'></i>
+
+                                <h3 class="services__modal-title">SEO</h3>
+                                <p class="services__modal-description">
+                                    I optimize your site for search engines.<br/>
+                                    I make your website accessible.
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            I will optimize your website content for search engines.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            I improve the visibility of your website.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            I increase your website performances.
+                                        </p>
+                                    </li>
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            I write maintainable code.
+                                        </p>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle"></span>
+            <h2 class="section__title">Contact</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <!-- <h3 class="contact__title">Contact</h3> -->
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class='bx bx-mail-send contact__card-icon'></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">menin.aurelie@gmail.com</span>
+
+                            <a href="mailto:menin.aurelie@gmail.com" target="_blank" class="contact__button">
+                                Envoyer un Email ! <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class='bx bxl-whatsapp contact__card-icon'></i>
+                            <h3 class="contact__card-title">Whatsapp</h3>
+                            <span class="contact__card-data">+33 6 11 20 04 07</span>
+
+                            <a href="https://wa.link/l17a8m" target="_blank" rel="noopener" class="contact__button">
+                                Envoyer un message ! <i class='bx bx-right-arrow-alt contact__button-icon'></i>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- <div class="contact__content">
+                    <h3 class="contact__title">Tell me your project</h3>
+
+                    <form action="https://formsubmit.co/menin.aurelie@gmail.com" method="POST"
+                        class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="name" class="contact__form-tag">Names</label>
+                            <input type="text" name="name" placeholder="Insert your name" class="contact__form-input"
+                                required>
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="email" class="contact__form-tag">Mail</label>
+                            <input type="email" name="email" placeholder="Insert your email" class="contact__form-input"
+                                required>
+                        </div>
+                        <input type="hidden" name="_next" value="https://github.com/aureliedev">
+                        <div class="contact__form-div contact__form-area">
+                            <label for="message" class="contact__form-tag">Project</label>
+                            <textarea name="message" id="" cols="30" rows="10" placeholder="Tell me your project"
+                                class="contact__form-input" required></textarea>
+                        </div>
+
+                        <button type="submit" class="button">Send Message</button>
+                    </form>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Mes réseaux</h1>
+            <ul class="footer__social">
+                <a href="https://bit.ly/3mNjlFm" target="_blank" rel="noopener" class="home__social-link">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+                <a href="https://bit.ly/3mL4Qlv" target="_blank" rel="noopener" class="home__social-link">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </ul>
+            <ul class="footer__list">
+                <li>
+                    <a href="#home" class="footer__link">Top</a>
+
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">Portfolio</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; 2022 - Aurélie M. - Tous droits réservés
+            </span>
+        </div>
+    </footer>
+    <!--=============== SCRIPTS JS ===============-->
+    <script defer src="./assets/js/scrollreveal.min.js"></script>
+    <script defer src="./assets/js/swiper-bundle.min.js"></script>
+    <script defer src="./assets/js/mixitup.min.js"></script>
+    <script defer src="./assets/js/main.js"></script>
+</body>
+</html>
